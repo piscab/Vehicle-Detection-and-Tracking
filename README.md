@@ -132,7 +132,7 @@ The following pictures represent the above pipeline.
 **Car position** (_from the heatmap_)
 <img src="output_images/Heat_car_positions.jpg" width="400">  
 
-**Final centered fixed-frame car position**
+**Final fixed-frame** (_de-noised_)
 <img src="output_images/Final_car_positions.jpg" width="400">  
 
 
