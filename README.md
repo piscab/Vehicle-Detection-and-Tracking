@@ -78,11 +78,11 @@ Here is an example using the `YCrCb` color space and HOG parameters of `orientat
 **Original image (car)**
 <img src="output_images/KITTI_sample78.png" width="200">
 **Corresponding hog image (channel 0)**
-<img src="output_images/KITTI_hog_sample78_0.png" width="200", cmap = 'gray'>
-**Corresponding hog image (channel 1)**
-<img src="output_images/KITTI_hog_sample78_1.png" width="200", cmap = 'gray'>
+<img src="output_images/KITTI_hog_sample78_0.png" width="200">  
+**Corresponding hog image (channel 1)**  
+<img src="output_images/KITTI_hog_sample78_1.png" width="200">  
 **Corresponding hog image (channel 2)**
-<img src="output_images/KITTI_hog_sample78_2.png" width="200", cmap = 'gray'>
+<img src="output_images/KITTI_hog_sample78_2.png" width="200">  
 
 >#2. _Describe how (and identify where in your code) you trained a classifier using your selected HOG features (and color features if you used them)._
 
