@@ -72,9 +72,9 @@ At the end, I preferred the YCrCb color space, using three channels.
 Here is an example using the `YCrCb` color space and HOG parameters of `orientations=9`, `pixels_per_cell=(8, 8)` and `cells_per_block=(2, 2)`, applied to a `vehicle` class image [cell 7].
 
 **Original image (car)**
-<img src="output_images/KITTI_sample78.png" width="200">
+<img src="output_images/KITTI_sample78.png" width="200">  
 **Corresponding hog image (channel 0)**
-<img src="output_images/KITTI_hog_sample78_0.png" width="200">  
+<img src="output_images/KITTI_hog_sample78_0.png" width="200">    
 **Corresponding hog image (channel 1)**  
 <img src="output_images/KITTI_hog_sample78_1.png" width="200">  
 **Corresponding hog image (channel 2)**
