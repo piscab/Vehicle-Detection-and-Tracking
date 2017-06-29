@@ -1,4 +1,4 @@
-# Vehicle Detection and Tracking Project
+# Vehicle Detection and Tracking
 > Please refer to: Self-Driving Car Engineer Nanodegree - Udacity, [Term 1 - Project 5](https://github.com/udacity/CarND-Vehicle-Detection)
 
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
@@ -126,13 +126,13 @@ The following pictures represent the above pipeline.
 **Heat Map**
 <img src="output_images/Heat_map.jpg" width="400">
 
-**Heat Map** (_after applying threshold_)  
+**Heat Map** (_w/threshold_)  
 <img src="output_images/Heat_map_w_threshold.jpg" width="400">
 
-**Cars Position - from the Heatmap**  (_small rectangles will disappear_)
+**Car Position - from the Heatmap** 
 <img src="output_images/Heat_car_positions.jpg" width="400">
 
-**Centered fixed-frame Car Positions**
+**Final Centered fixed-frame Car Position**
 <img src="output_images/Final_car_positions.jpg" width="400">
 
 
