@@ -73,11 +73,11 @@ Here is an example using the `YCrCb` color space and HOG parameters of `orientat
 
 **Original image (car)**
 <img src="output_images/KITTI_sample78.png" width="200">  
-**Corresponding hog image (channel 0)**
+**Hog image (channel 0)**
 <img src="output_images/KITTI_hog_sample78_0.png" width="200">    
-**Corresponding hog image (channel 1)**
+**Hog image (channel 1)**
 <img src="output_images/KITTI_hog_sample78_1.png" width="200">  
-**Corresponding hog image (channel 2)**
+**Hog image (channel 2)**
 <img src="output_images/KITTI_hog_sample78_2.png" width="200">  
 
 >#2. _Describe how (and identify where in your code) you trained a classifier using your selected HOG features (and color features if you used them)._
@@ -120,19 +120,19 @@ The following pictures represent the above pipeline.
 **Test image**
 <img src="output_images/My_test_image.jpg" width="400">  
 
-**Original car-frames Detection**
+**Initial car-frames detection**
 <img src="output_images/Raw_detection.jpg" width="400">  
 
-**Heat Map**
+**Heat map**
 <img src="output_images/Heat_map.jpg" width="400">  
 
-**Heat Map** (_applying threshold_)
+**Heat map** (_applying threshold_)
 <img src="output_images/Heat_map_w_threshold.jpg" width="400">  
 
-**Car Position - from the Heatmap**
+**Car position** (_from the heatmap_)
 <img src="output_images/Heat_car_positions.jpg" width="400">  
 
-**Final Centered fixed-frame Car Position**
+**Final centered fixed-frame car position**
 <img src="output_images/Final_car_positions.jpg" width="400">  
 
 
