@@ -75,7 +75,7 @@ Here is an example using the `YCrCb` color space and HOG parameters of `orientat
 <img src="output_images/KITTI_sample78.png" width="200">  
 **Corresponding hog image (channel 0)**
 <img src="output_images/KITTI_hog_sample78_0.png" width="200">    
-**Corresponding hog image (channel 1)**  
+**Corresponding hog image (channel 1)**
 <img src="output_images/KITTI_hog_sample78_1.png" width="200">  
 **Corresponding hog image (channel 2)**
 <img src="output_images/KITTI_hog_sample78_2.png" width="200">  
@@ -118,22 +118,22 @@ Briefly, the pipeline includes the following steps (see also the picture below):
 The following pictures represent the above pipeline. 
 
 **Test image**
-<img src="output_images/My_test_image.jpg" width="400">
+<img src="output_images/My_test_image.jpg" width="400">  
 
 **Original car-frames Detection**
-<img src="output_images/Raw_detection.jpg" width="400">
+<img src="output_images/Raw_detection.jpg" width="400">  
 
 **Heat Map**
-<img src="output_images/Heat_map.jpg" width="400">
+<img src="output_images/Heat_map.jpg" width="400">  
 
-**Heat Map** (_w/threshold_)  
-<img src="output_images/Heat_map_w_threshold.jpg" width="400">
+**Heat Map** (_applying threshold_)
+<img src="output_images/Heat_map_w_threshold.jpg" width="400">  
 
-**Car Position - from the Heatmap** 
-<img src="output_images/Heat_car_positions.jpg" width="400">
+**Car Position - from the Heatmap**
+<img src="output_images/Heat_car_positions.jpg" width="400">  
 
 **Final Centered fixed-frame Car Position**
-<img src="output_images/Final_car_positions.jpg" width="400">
+<img src="output_images/Final_car_positions.jpg" width="400">  
 
 
 ---
