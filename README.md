@@ -5,7 +5,7 @@
 
 
 ### Overview
-Using a Support Vector Machine classifier, this project aims to draw a bounding box for vehicles detected in a video. 
+Using Histogram of Oriented Gradients (HOG) and a Support Vector Machine classifier, this project aims to draw a bounding box for vehicles detected in a video. 
 
 The code is stored in a [Jupyter Notebook](http://jupyter.org/) and requires **Python 3.5**. Please refer to the [project website](https://github.com/udacity/CarND-Vehicle-Detection) for implementation details. 
 
@@ -13,17 +13,13 @@ This [video](https://vimeo.com/207707140) contains the outcome of this project -
 
 
 
----
-
 ## The Vehicle Detection and Tracking Project
-
----
 
 The goals/steps of this project are the following:
 
-* Perform a Histogram of Oriented Gradients (HOG) feature extraction on a labeled training set of images and train a classifier Linear SVM classifier
-* Optionally, you can also apply a color transform and append binned color features, as well as histograms of color, to your HOG feature vector. 
-* Note: for those first two steps don't forget to normalize your features and randomize a selection for training and testing.
+* Perform a Histogram of Oriented Gradients (HOG) feature extraction on a labeled training set of images and train a Linear SVM classifier
+* Optionally, apply a color transform and append binned color features, as well as histograms of color, to the HOG feature vector. 
+* During those first two steps normalize your features and randomize a selection for training and testing.
 * Implement a sliding-window technique and use your trained classifier to search for vehicles in images.
 * Run your pipeline on a video stream (start with the test_video.mp4 and later implement on full project_video.mp4) and create a heat map of recurring detections frame by frame to reject outliers and follow detected vehicles.
 * Estimate a bounding box for vehicles detected.
@@ -130,11 +126,10 @@ The following pictures represent the above pipeline.
 **Heat Map**
 <img src="output_images/Heat_map.jpg" width="400">
 
-**Heat Map (after threshold)**
+**Heat Map** (_after applying threshold_)  
 <img src="output_images/Heat_map_w_threshold.jpg" width="400">
 
-**Car Positions from the Heatmap**  
-Small rectangles will disappear
+**Cars Position - from the Heatmap**  (_small rectangles will disappear_)
 <img src="output_images/Heat_car_positions.jpg" width="400">
 
 **Centered fixed-frame Car Positions**
